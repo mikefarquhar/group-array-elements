@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>groupArrayElements example</title>
+	</head>
+	<body>
+		<h1>Press F12 to open console and see results.</h1>
+		<script src="../../dist/group-array-elements.js"></script>
+		<script>
+			const elements = [1, 2, 3, 4, 5];
+			const numGroups = 3;
+			const groupedElements = groupArrayElements(elements, numGroups);
+
+			console.log("Input elements:");
+			console.log(elements);
+			console.log(`Split into ${numGroups} groups, returns:`);
+			console.log(groupedElements);
+		</script>
+	</body>
+</html>

@@ -8,8 +8,9 @@ This helper function attempts to group the elements of an array into N equally s
 
 ## Install Instructions
 NPM/Yarn: add `"group-array-elements": "git://github.com/mikefarquhar/group-array-elements.git#main"`
+to your dev dependencies.
 
-Local: Copy the 'group-array-elements.js' file from the dist folder
+Local: Copy the 'group-array-elements.js' file from the dist folder.
 
 ## Usage
 Node/CommonJS:
@@ -42,21 +43,25 @@ Browser:
 
 ## For developers
 
+Install dependencies before starting:
+``` bash
+npm install
+```
+
 The following scripts can be run from the command line:
 ``` bash
 # Build the minified UMD library:
-npm run build # or
-yarn build
+npm run build
 
 #Run the test suite:
-npm run test # or
-yarn test
+npm run test
 
 # Lint the code (only checks for errors):
-npm run lint # or
-yarn lint
+npm run lint
 
 # Format files with Prettier:
-npm run format # or
-yarn format
+npm run format
+
+# Run the example in Node.
+npm run example
 ```

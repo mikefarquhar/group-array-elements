@@ -9,7 +9,8 @@
     "build": "webpack --config ./webpack.config.js",
 		"test": "jest",
 		"lint": "eslint ./src",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"example": "node ./examples/node"
   },
   "keywords": [],
   "author": "Michael Farquhar <michaelfarquhar1991@gmail.com>",
