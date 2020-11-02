@@ -1,0 +1,3 @@
+# Avoid linting files in the following directories.
+dist
+coverage

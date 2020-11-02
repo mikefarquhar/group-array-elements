@@ -1,0 +1,10 @@
+# Avoid checking/modifying code style in the following directories.
+dist
+coverage
+node_modules
+
+# Specifically avoid modifying these files.
+jest.config.js
+package.json
+package-lock.json
+*.md
