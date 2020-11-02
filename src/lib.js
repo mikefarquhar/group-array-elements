@@ -22,7 +22,7 @@ function groupArrayElements(array, numGroups) {
 
 	// Ensure the number of groups is less than or equal to the array length so that we don't end
 	// up with more groups than we have elements for.
-	const actualNumGroups = Math.min(numGroups, array.length)
+	const actualNumGroups = Math.min(numGroups, array.length);
 
 	// The array length might not exactly divide by the number of groups so we must use ceil to
 	// ensure we get the next whole number and avoid missing elements from the end of the array.
