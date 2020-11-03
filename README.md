@@ -8,7 +8,7 @@ This helper function attempts to group the elements of an array into N equally s
 
 ## Install Instructions
 NPM/Yarn: add `"group-array-elements": "git://github.com/mikefarquhar/group-array-elements.git#main"`
-to your dev dependencies.
+to your dependencies.
 
 Local: Copy the 'group-array-elements.js' file from the dist folder.
 
